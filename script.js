@@ -1,10 +1,5 @@
-let fruits = ["apple", "banana", "orange"];
-let myfavourite = [...fruits,'mango','pineapple'];
+const body = document.getElementById('body');
 
-myfavourite.forEach(fruit => {
-    console.log(fruit);
-});
-
-myfavourite.map(fruit => {
-    
+document.getElementById('button').addEventListener('click', () => {
+    body.style.backgroundColor = 'blue';
 })
